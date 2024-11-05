@@ -29,16 +29,12 @@
           <li class="nav-item"> 
             <a class="nav-link" href="#Ker">Keranjang</a> 
           </li> 
-          <li class="nav-item"> 
-            <a class="nav-link" href="{{ url('login') }}">Login</a> 
-          </li>
           <!-- Tautan ke halaman CRUD -->
-          <li class="nav-item"> 
-            <a class="nav-link" href="{{ route('users.index') }}">Users</a> 
+          </li>          <li class="nav-item"> 
+            <a class="nav-link" href="{{ route('register') }}">Register</a> 
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="{{ route('products.index') }}">Products</a> 
-          </li>
+            <a class="nav-link" href="{{ route('dashboard') }}">Login</a> 
         </ul> 
         <form class="d-flex"> 
             <input class="form-control me-2" type="search" placeholder="Cari apa sih..." aria-label="Search" style="width: 300px;" /> 
